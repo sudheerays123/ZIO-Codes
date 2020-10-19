@@ -28,34 +28,34 @@ int main(){
        q.pop();
 
        ll x = a.second.first;
-       ll y = a.second.second;
-       ll w = abs(a.first);
+       ll y = a.second.second; 
+       ll w = abs(a.first) // taking absolute value because we have pushed negative value
 
        if(x != n-1 && dijkstra[x+1][y] == INF){
 
            dijkstra[x+1][y] = w + grid[x+1][y];;
-           q.push(mp(-dijkstra[x+1][y],mp(x+1,y)));
+           q.push(mp(-dijkstra[x+1][y],mp(x+1,y))); // priority queue sorts the elements in it in descending order but we need the smallest element first therefore we push negative value
 
        }
 
        if(x != 0 && dijkstra[x-1][y] == INF){
 
            dijkstra[x-1][y] = w + grid[x-1][y];
-           q.push(mp(-dijkstra[x-1][y],mp(x-1,y)));
+           q.push(mp(-dijkstra[x-1][y],mp(x-1,y))); // priority queue sorts the elements in it in descending order but we need the smallest element first therefore we push negative value
 
        }
 
        if(y != m-1 && dijkstra[x][y+1] == INF){
 
            dijkstra[x][y+1] = w + grid[x][y+1];
-           q.push(mp(-dijkstra[x][y+1],mp(x,y+1)));
+           q.push(mp(-dijkstra[x][y+1],mp(x,y+1))); // priority queue sorts the elements in it in descending order but we need the smallest element first therefore we push negative value
 
        }
 
        if(y != 0 && dijkstra[x][y-1] == INF){
 
            dijkstra[x][y-1] = w + grid[x][y-1];
-           q.push(mp(-dijkstra[x][y-1],mp(x,y-1)));
+           q.push(mp(-dijkstra[x][y-1],mp(x,y-1))); // priority queue sorts the elements in it in descending order but we need the smallest element first therefore we push negative value
 
        }
    }
