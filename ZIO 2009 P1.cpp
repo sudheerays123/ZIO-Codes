@@ -49,3 +49,11 @@ int main(){
 
     return 0;
 }
+
+/*
+
+a --> INPUT : 8 OUPUT : 227
+b --> INPUT : 10 OUTPUT : 1071
+c --> INPUT : 12 OUTPUT : 5038
+
+*/
