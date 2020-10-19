@@ -11,7 +11,7 @@ int main(){
 
    vector<vector<ll>> grid(n+5,vector<ll>(m+5));
    vector<vector<ll>> dijkstra(n+5,vector<ll>(m+5,INF));
-   priority_queue<pair<ll,pair<ll,ll>>> q;
+   priority_queue<pair<ll,pair<ll,ll>>> q; // first number will hold the dijkstra[i][j] , and the second pair will hold the coordinates i.e i,j
 
    for(ll i = 0; i < n; i++){
        for(ll j = 0; j < m; j++){
