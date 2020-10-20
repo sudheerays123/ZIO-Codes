@@ -29,7 +29,7 @@ int main(){
 
        ll x = a.second.first;
        ll y = a.second.second; 
-       ll w = abs(a.first) // taking absolute value because we have pushed negative value
+       ll w = abs(a.first); // taking absolute value because we have pushed negative value
 
        if(x != n-1 && dijkstra[x+1][y] == INF){
 
