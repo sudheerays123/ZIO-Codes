@@ -37,7 +37,7 @@ int main() {
 
     // ANSWER :
 
-    cout << max(dp[n-1][0] , max(dp[n-1][1] , dp[n-2][1]));
+    cout << max(dp[n-2][1] , max(dp[n-1][1] , dp[n-1][0]));
 
     return 0;
 }
