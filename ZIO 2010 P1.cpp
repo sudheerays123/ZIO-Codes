@@ -1,5 +1,4 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
 #define INF 0x3f3f3f3f3f
