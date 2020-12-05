@@ -11,3 +11,31 @@ int main() {
 
     return 0;
 }
+
+/*
+
+a --> INPUT :
+
+3
+
+a --> OUTPUT :
+
+144
+
+b --> INPUT :
+
+4
+
+b --> OUTPUT :
+
+8192
+
+c --> INPUT :
+
+5
+
+c --> OUTPUT :
+
+1638400
+
+*/
