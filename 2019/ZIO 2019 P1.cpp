@@ -40,3 +40,31 @@ int main() {
 
     return 0;
 }
+
+/*
+
+a --> INPUT :
+
+15
+
+a --> OUTPUT :
+
+69
+
+b --> INPUT :
+
+19
+
+b --> OUTPUT :
+
+105
+
+c --> INPUT :
+
+22
+
+c --> OUTPUT :
+
+133
+
+*/
