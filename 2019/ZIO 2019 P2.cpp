@@ -29,3 +29,31 @@ int main() {
 
     return 0;
 }
+
+/*
+
+a --> INPUT :
+
+114 23 7 12 16
+
+a --> OUTPUT :
+
+8
+
+b --> INPUT :
+
+76 9 7 15 16
+
+b --> OUTPUT :
+
+7
+
+c --> INPUT :
+
+138 10 9 12 26
+
+c --> OUTPUT :
+
+11
+
+*/
