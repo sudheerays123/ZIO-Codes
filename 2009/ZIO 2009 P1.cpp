@@ -52,8 +52,28 @@ int main(){
 
 /*
 
-a --> INPUT : 8 OUPUT : 227
-b --> INPUT : 10 OUTPUT : 1071
-c --> INPUT : 12 OUTPUT : 5038
+a --> INPUT : 
+
+8
+
+a --> OUTPUT :
+
+227
+
+b --> INPUT : 
+
+10 
+
+b --> OUTPUT :
+
+1071
+
+c --> INPUT : 
+
+12 
+
+c --> OUTPUT :
+
+5038
 
 */
