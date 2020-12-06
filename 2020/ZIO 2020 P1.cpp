@@ -14,8 +14,27 @@ int main() {
 
 /*
 
-a --> INPUT : 4 OUTPUT : 41
-b --> INPUT : 10 OUTPUT : 221
-c --> INPUT : 23 OUTPUT : 1105
+a --> INPUT : 
+
+4
+a --> OUTPUT :
+
+41
+
+b --> INPUT : 
+
+10
+
+b --> OUTPUT :
+
+221
+
+c --> INPUT : 
+
+23
+
+c --> OUTPUT :
+
+1105
 
 */
