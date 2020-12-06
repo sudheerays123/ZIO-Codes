@@ -73,21 +73,33 @@ int main() {
 
 /*
 
+a --> INPUT :
+
 9
 5 8 20 -2 10 -8 -2 13 -8
 R R R G R B B B R
 
+a --> OUTPUT
+
 123
+
+b --> INPUT :
 
 13
 8 9 -5 2 4 -6 2 1 -3 -3 7 9 1
 R R R R B B B B G G B B B
 
+b --> OUTPUT :
+
 72
+
+c --> INPUT :
 
 14
 -1 -3 4 -5 7 10 -8 6 7 4 -3 2 9 -4
 G G B R G B B B B B R R R G
+ 
+c --> OUTPUT :
 
 107
 
